@@ -3,31 +3,109 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: rgb(255, 249, 196);
 }
 
-.border{
-    width: 40%;
+.cont{
+    display: flex;
+}
+
+.borderleft{
+    width: 30vw;
     height: 100vh;
     background-color: rgb(24, 65, 247);
 }
 
-.pic{
-    width: 20%;
-    position: absolute;
-    bottom: 400px;
-    right: 40%;
-}
-
 .Jiacinto,
 .Branducci{
-    color: whitesmoke;
-    font-size: 115px;
-    font-family: Yantramanav;
+    color:  rgb(255, 249, 196);
+    font-size: 90px;
+    font-family: Roboto, sans-serif;
     font-weight: bold;
     margin-left:20px;
+    padding-top: 80px;
+}
+
+.Branducci{
+    margin-top: 10px;
     padding-top: 10px;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 15px;
+    margin-left: 30px;
+    margin-top: 65%;
     
 }
 
+h3,
+p{
+    color:  rgb(255, 249, 196);
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
 
+}
+
+ion-icon{
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 249, 196);
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* margin-left: 60vh; */
+    background-color: rgb(18, 76, 176);
+}
+
+.pic{
+    width: 500px;
+    right: 45%;
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    /* text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; */
+    margin-right: 15%;
+    margin-top: 0;
+}
+
+
+.resume{
+    /* display: flex;
+    align-items: center;  */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.act{
+    color: rgb(24, 65, 247);
+    font-size: 15px;    
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.bord{
+    border-right: 1px solid rgb(24, 65, 247) ;
+    padding-right: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
