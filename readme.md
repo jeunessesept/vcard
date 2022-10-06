@@ -1,3 +1,4 @@
-i think this version is ok
-i just cheated by adding the blue tourbillon line using "position = 
-absolute".
+6/10 changes : 
+
+correction HTML + CSS 
++ responsive done for 600px .
