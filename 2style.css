@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    height: 100vh;
+    background-color: #4f1ff7 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    color: antiquewhite;
+
+}
+
+.logo{
+    width: 110px;
+    height: 55px;
+}
+
+
+.center{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    height: 90%;
+    background-image: url(./assets/mat.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 170px;
+}
+
+
+
+.purplestuff{
+	height: 5%;
+    width: 200px;
+    background-color: #4f1ff7;
+}
+
+.right{
+    width: 45%;
+    height: 100%;
+    padding: 30px;
+}
+
+.right-content{
+    height: 100%;
+    display: flex;
+}
+
+.infos{
+    font-size: clamp(0.5rem, 2vw, 1.5rem); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-left{
+    color: antiquewhite;
+    background-color: #4f1ff7;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.btn-right{
+    color: rgb(14, 14, 13);
+    background-color: #fdfdff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.menu-container{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .left{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+    }
+
+    .logo{
+        margin-top: 50px;
+    }
+
+    .footer{
+        font-size: 2vw;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-top: 30px;
+    }
+
+    .footer p{
+        margin: 2px;
+    }
+
+    .footer h4{
+        margin: 2px;
+    }
+
+    .flex{
+        justify-content: space-around;
+    }
+
+    .center{
+        width: 50%;
+        height: 80%;
+        display: flex;
+    }
+
+    .photo{
+        width: 100%;
+        background-image: url(./assets/mat.jpeg);
+        background-position: center;
+        background-repeat:no-repeat;
+    }
+    
+    .purplestuff{
+        width: 100vw;
+    }
+
+    .right{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-content{
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .infos h1{
+        margin-top: 0;
+    }
+
+    .btn-left{
+        margin: 3px;
+    }
+    .btn-right{
+        margin: 3px;
+    }
+    
+}
+
+
+    
+  
