@@ -3,3 +3,104 @@
 
 }
 
+body{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: #4f1ff7 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    color: antiquewhite;
+
+}
+
+.logo{
+    width: 40%;
+    height: auto;
+}
+
+
+.center{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    height: 90%;
+    background-image: url(./assets/mat.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 170px;
+}
+
+.purplestuff{
+	height: 5%;
+    width: 200px;
+    background-color: #4f1ff7;
+}
+
+.right{
+    width: 45%;
+    height: 100%;
+    padding: 30px;
+}
+
+.right-content{
+    height: 100%;
+    display: flex;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-left{
+    color: antiquewhite;
+    background-color: #4f1ff7;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.btn-right{
+    color: rgb(14, 14, 13);
+    background-color: #fdfdff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.menu-container{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
